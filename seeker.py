@@ -97,14 +97,14 @@ def banner():
 /____  > \___  >\___  >|__|_ \ \___  >|__|
      \/      \/     \/      \/     \/'''
 	print(f'{G}{art}{W}\n')
-	print(f'{G}[>] {C}Created By   : {W}thewhiteh4t')
-	print(f'{G} |---> {C}Twitter   : {W}{twitter_url}')
+	print(f'{G}[>] {C}Not Created BY   : {W}Eagle29')
+	print(f'{G} |---> {C}Discord   : {W}{}Stars29#7008')
 	print(f'{G} |---> {C}Community : {W}{comms_url}')
 	print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
 
 
 def template_select(site):
-	print(f'{Y}[!] Select a Template :{W}\n')
+	print(f'{Y}[!] Pilih Metode{W}\n')
 
 	with open(TEMPLATES_JSON, 'r') as templ:
 		templ_info = templ.read()
